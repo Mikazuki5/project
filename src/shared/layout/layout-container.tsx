@@ -10,7 +10,7 @@ type Props = {
 
 const LayoutContainer = ({ children, title = 'This is the default title', withNavbar = true }: Props) => {
   return(
-    <div style={{overflowX: 'hidden'}} className=''>
+    <div style={{overflowX: 'hidden', backgroundColor: '#111'}} className=''>
       <Header title={title} />
       {withNavbar && <Navbar />}
       {children}

@@ -31,7 +31,7 @@ const DropdownLink = ({ dropdownLinkName, dropdownItem }: Props) => {
   return (
     <React.Fragment>
       <li className="nav-item dropdown">
-        <a className="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a className="nav-link" href="/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           {dropdownLinkName}
         </a>
         <div className="dropdown-menu text-right text-md-right text-lg-left" aria-labelledby="navbarDropdown">
